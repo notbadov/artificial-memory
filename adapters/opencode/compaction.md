@@ -1,0 +1,1 @@
+Preserve the selected Agent Platform mode, relevant Agent Memory note identifiers, release-verification state, and any armed defect-learning gate when compacting this session. Do not replace exact memory-note reads with search-result summaries.

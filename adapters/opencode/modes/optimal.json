@@ -1,0 +1,11 @@
+{
+  "name": "optimal",
+  "description": "Use the established full-quality workflow for complex or high-risk work.",
+  "model": "machine-local",
+  "effort": "high",
+  "quality_gates": {
+    "production_verification": "full",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "project-and-global"
+  }
+}

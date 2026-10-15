@@ -1,0 +1,16 @@
+{
+  "generated_from": "shared/modes/economy.toml",
+  "name": "economy",
+  "description": "Minimize token use for routine, low-risk work while retaining required safety gates.",
+  "intended_use": [
+    "Low-risk, repetitive, or exploratory work where token burn matters most.",
+    "Keep the task small. Avoid repeated deep verification unless the user asks."
+  ],
+  "quality_gates": {
+    "production_verification": "changed-routes",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "targeted"
+  },
+  "model": "haiku",
+  "effort": "default"
+}

@@ -1,0 +1,16 @@
+{
+  "generated_from": "shared/modes/optimal.toml",
+  "name": "optimal",
+  "description": "Use the established full-quality workflow for complex or high-risk work.",
+  "intended_use": [
+    "Highest-fidelity work on risky, ambiguous, or production-adjacent tasks.",
+    "Keep full review discipline: self-checks, defect learning, and release verification."
+  ],
+  "quality_gates": {
+    "production_verification": "full",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "project-and-global"
+  },
+  "model": "opus",
+  "effort": "high"
+}

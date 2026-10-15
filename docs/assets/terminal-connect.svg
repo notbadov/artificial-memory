@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 374" width="860" height="374" role="img" aria-label="npx artificial-memory connect: a code, a confirmation in the browser, and the computer is connected">
+<title>Connecting a computer with npx artificial-memory connect</title>
+<rect width="860" height="374" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="859" height="373" rx="11.5" fill="none" stroke="#30363d"/>
+<circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+<clipPath id="typed"><rect x="42" y="46" height="26" width="0"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0375;0.1250;0.96;1" values="0;0;560;560;0"/></rect></clipPath><text x="24" y="64" fill="#7ee787">$</text><text x="42" y="64" fill="#e6edf3" clip-path="url(#typed)">npx artificial-memory connect</text>
+<text x="24" y="90" fill="#e6edf3" opacity="0">Which AI apps should Artificial Memory work with on this computer?<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1625;0.1745;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="116" fill="#e6edf3" opacity="0">Enter the names separated by commas, or press Enter for [codex, claude]: ⏎<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2000;0.2120;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="142" fill="#d2a8ff" font-weight="700" opacity="0">Confirmation code: 482913<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2750;0.2870;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="168" fill="#e6edf3" opacity="0">Open this page, sign in, and enter the code to connect «MacBook»:<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2875;0.2995;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="194" fill="#79c0ff" opacity="0">  https://app.artificial-memory.com/connect/…<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2875;0.2995;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="220" fill="#8b949e" opacity="0">The page was opened in your browser. Waiting for your confirmation…<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.3250;0.3370;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="246" fill="#7ee787" opacity="0">Connected: «MacBook» (macbook-7f3a2c).<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5125;0.5245;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="272" fill="#8b949e" opacity="0">Checking the signature of the approved release and installing skills, rules and tools…<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5500;0.5620;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="298" fill="#7ee787" opacity="0">Synchronized. Restart the AI apps that were open so they pick up the changes.<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6750;0.6870;0.96;1" values="0;0;1;1;0"/></text>
+<text x="24" y="324" fill="#e6edf3" opacity="0">Background synchronization is on: once an hour.<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7000;0.7120;0.96;1" values="0;0;1;1;0"/></text>
+</g></svg>

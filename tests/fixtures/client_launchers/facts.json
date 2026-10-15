@@ -1,0 +1,36 @@
+{
+  "revisions": {
+    "macos": 6,
+    "windows": 9,
+    "schema": 1
+  },
+  "guardArguments": "--lock-wait 30 --self-check-limit 60",
+  "guardFile": "sync-client-guard.py",
+  "argumentsFile": "sync-client.arguments.json",
+  "layouts": [
+    "legacy",
+    "terminal"
+  ],
+  "keychain": [
+    "com.artificial-memory.agent-platform",
+    "managed-client"
+  ],
+  "taskNames": {
+    "legacy": "Agent Platform Sync (golden-computer)",
+    "terminal": "Artificial Memory Sync (golden-computer)"
+  },
+  "launchAgentLabels": {
+    "legacy": "ru.notbadov.agent-platform-sync.9ba1f1c3b7fbaf37",
+    "terminal": "com.artificial-memory.sync.9ba1f1c3b7fbaf37"
+  },
+  "literals": [
+    "'sync-client.arguments.json'",
+    "\"a \"\"quoted\"\" word\""
+  ],
+  "fingerprints": {
+    "macos-legacy": "04eb8d7130a895b5984b46d50be7c797dcc30ea5e323c7939ab4b0476d081dee",
+    "macos-terminal": "4f2508bffb928533740e9528bf9eee66f5d585c65100cb51057b77b23612acd1",
+    "windows-legacy": "528c59f134f7397c54a88343269abd8d94813a7fcc7286a9df8540390874aa05",
+    "windows-terminal": "9d10987ba009372ad448a799f3fcd4bc9b3ba91d3b882ee7b87a0c69a7eb4c3c"
+  }
+}

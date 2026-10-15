@@ -1,0 +1,37 @@
+{
+  "name": "artificial-memory",
+  "version": "0.1.1",
+  "description": "Artificial Memory in the terminal: connect a computer, synchronize it, disconnect it",
+  "type": "module",
+  "bin": {
+    "artificial-memory": "bin/artificial-memory.mjs"
+  },
+  "files": [
+    "bin",
+    "src/launcher.mjs",
+    "src/runtime.mjs",
+    "src/trust.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin",
+    "win32"
+  ],
+  "homepage": "https://app.artificial-memory.com/cli",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notbadov/artificial-memory.git",
+    "directory": "packages/command-line"
+  },
+  "bugs": "https://github.com/notbadov/artificial-memory/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

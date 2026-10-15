@@ -1,0 +1,12 @@
+{
+  "name": "balanced-economy",
+  "description": "Preserve normal engineering quality with lower reasoning cost for most project work.",
+  "quality_gates": {
+    "production_verification": "changed-routes",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "targeted"
+  },
+  "model": "current",
+  "thinking": true,
+  "effort": "low"
+}

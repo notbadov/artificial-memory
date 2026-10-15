@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Label</key><string>com.artificial-memory.sync.9ba1f1c3b7fbaf37</string>
+<key>ProgramArguments</key><array><string>{ROOT}/home of O'Neil &amp; Сын/.agent-platform/client/sync-client.sh</string></array>
+<key>RunAtLoad</key><true/>
+<key>StartInterval</key><integer>3600</integer>
+<key>ProcessType</key><string>Background</string>
+<key>StandardOutPath</key><string>{ROOT}/home of O'Neil &amp; Сын/.agent-platform/client/logs/sync.log</string>
+<key>StandardErrorPath</key><string>{ROOT}/home of O'Neil &amp; Сын/.agent-platform/client/logs/sync-error.log</string>
+</dict></plist>

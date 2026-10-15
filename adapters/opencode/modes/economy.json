@@ -1,0 +1,11 @@
+{
+  "name": "economy",
+  "description": "Minimize token use for routine, low-risk work while retaining required safety gates.",
+  "model": "machine-local",
+  "effort": "low",
+  "quality_gates": {
+    "production_verification": "changed-routes",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "targeted"
+  }
+}

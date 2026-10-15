@@ -1,0 +1,29 @@
+{
+  "receipt": {
+    "version": 1,
+    "clientId": "golden-computer",
+    "displayName": "Мария's \"Mac\" & PC",
+    "providers": [
+      "codex"
+    ],
+    "controlPlaneUrl": "",
+    "taskName": "Agent Platform Sync (golden-computer)",
+    "launcher": "wscript.exe"
+  },
+  "credentials": {},
+  "scheduler": [
+    [
+      "C:\\Windows\\System32\\schtasks.exe",
+      "/Create",
+      "/F",
+      "/SC",
+      "HOURLY",
+      "/MO",
+      "1",
+      "/TN",
+      "Agent Platform Sync (golden-computer)",
+      "/TR",
+      "wscript.exe //B //Nologo \"{ROOT}/home of O'Neil & Сын/.agent-platform/client/sync-client.vbs\""
+    ]
+  ]
+}

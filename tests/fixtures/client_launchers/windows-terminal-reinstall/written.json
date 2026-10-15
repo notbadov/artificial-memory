@@ -1,0 +1,33 @@
+{
+  "receipt": {
+    "version": 1,
+    "clientId": "golden-computer",
+    "displayName": "Мария's \"Mac\" & PC",
+    "providers": [
+      "codex",
+      "claude",
+      "kimi"
+    ],
+    "controlPlaneUrl": "https://service.test/agent-api",
+    "taskName": "Artificial Memory Sync (golden-computer)",
+    "launcher": "wscript.exe"
+  },
+  "credentials": {
+    "credential.dpapi": "sealed golden-token"
+  },
+  "scheduler": [
+    [
+      "C:\\Windows\\System32\\schtasks.exe",
+      "/Create",
+      "/F",
+      "/SC",
+      "HOURLY",
+      "/MO",
+      "1",
+      "/TN",
+      "Artificial Memory Sync (golden-computer)",
+      "/TR",
+      "wscript.exe //B //Nologo \"{ROOT}/home of O'Neil & Сын/.agent-platform/client/sync-client.vbs\""
+    ]
+  ]
+}

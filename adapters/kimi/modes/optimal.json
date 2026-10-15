@@ -1,0 +1,12 @@
+{
+  "name": "optimal",
+  "description": "Use the established full-quality workflow for complex or high-risk work.",
+  "quality_gates": {
+    "production_verification": "full",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "project-and-global"
+  },
+  "model": "current",
+  "thinking": true,
+  "effort": "high"
+}

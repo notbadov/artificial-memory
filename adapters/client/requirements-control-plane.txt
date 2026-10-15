@@ -1,0 +1,2 @@
+# Provision explicitly before enabling the signed-release transport; no runtime pip.
+cryptography==46.0.7

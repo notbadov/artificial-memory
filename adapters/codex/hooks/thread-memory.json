@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.codex/skills/capture-thread-memory/scripts/thread_memory_gate.py\" hook --provider codex"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.codex/skills/capture-thread-memory/scripts/thread_memory_gate.py\" hook --provider codex"
+          }
+        ]
+      }
+    ]
+  }
+}

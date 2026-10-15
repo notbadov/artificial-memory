@@ -1,0 +1,41 @@
+{
+  "receipt": {
+    "version": 1,
+    "clientId": "golden-computer",
+    "displayName": "Мария's \"Mac\" & PC",
+    "providers": [
+      "codex",
+      "claude",
+      "kimi"
+    ],
+    "controlPlaneUrl": "https://service.test/agent-api",
+    "taskName": "com.artificial-memory.sync.9ba1f1c3b7fbaf37",
+    "launcher": "launchd"
+  },
+  "credentials": {},
+  "scheduler": [
+    [
+      "launchctl",
+      "print",
+      "gui/501/com.artificial-memory.sync.9ba1f1c3b7fbaf37"
+    ],
+    [
+      "launchctl",
+      "bootout",
+      "gui/501",
+      "{ROOT}/home of O'Neil & Сын/Library/LaunchAgents/com.artificial-memory.sync.9ba1f1c3b7fbaf37.plist"
+    ],
+    [
+      "launchctl",
+      "bootstrap",
+      "gui/501",
+      "{ROOT}/home of O'Neil & Сын/Library/LaunchAgents/com.artificial-memory.sync.9ba1f1c3b7fbaf37.plist"
+    ],
+    [
+      "launchctl",
+      "kickstart",
+      "-k",
+      "gui/501/com.artificial-memory.sync.9ba1f1c3b7fbaf37"
+    ]
+  ]
+}

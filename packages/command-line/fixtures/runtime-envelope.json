@@ -1,0 +1,25 @@
+{
+  "publicKey": "ebVWLo/mVPlAeLES6KmLp5AfhTrmlb7X4OORC60ElmQ=",
+  "signingBytes": "YWdlbnQtcGxhdGZvcm0tY2xpZW50LXJ1bnRpbWUtdjEAeyJrZXlJZCI6InRlc3Qta2V5IiwibWFuaWZlc3QiOnsiYWdlbnRQbGF0Zm9ybVNoYSI6IjRiMzQxOWRhMDc0MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJhcmNoaXZlIjoiY2xpZW50LXJ1bnRpbWUtMjAyNjA5MzAtNGIzNDE5ZGEwNzQwLXB5My4xMi4xNC1kYXJ3aW4tYWFyY2g2NC50YXIuZ3oiLCJhcmNoaXZlU2hhMjU2IjoiMjZiMzllYzNkY2Q5OWI5MWQ0N2ZlZjI1NGJjMTA5NDQyOGYzMWQzMTY0ZWNiNDM1MTczNDc2NTdjNmNjMmNlMiIsImFyY2hpdmVTaXplIjozMTY4MTk5OCwiY2FwYWJpbGl0aWVzIjpbInNjaGVkdWxlckNvbXBhbmlvbiJdLCJjcmVhdGVkQXQiOiIyMDI2LTA5LTMwVDE1OjMwOjAwWiIsImV4ZWN1dGFibGUiOiJweXRob24vYmluL3B5dGhvbjMiLCJpbnN0YWxsZXIiOiJib290c3RyYXAvY29tcGFuaW9uX2luc3RhbGwucHkiLCJwbGF0Zm9ybSI6ImRhcndpbi1hYXJjaDY0IiwicHl0aG9uU2hhMjU2IjoiMWJiM2U1M2QyMzFlZTJjODg4MWU4ZGFmNjQyNmY0ZGQ5NWJmZjBkZGE0OTZhZjBmM2FmMzAwMzU3YWE5OThkMCIsInB5dGhvblZlcnNpb24iOiIzLjEyLjE0IiwicnVudGltZUlkIjoiMjAyNjA5MzAtNGIzNDE5ZGEwNzQwLXB5My4xMi4xNCJ9LCJzY2hlbWFWZXJzaW9uIjoxfQ==",
+  "envelope": {
+    "schemaVersion": 1,
+    "keyId": "test-key",
+    "manifest": {
+      "runtimeId": "20260930-4b3419da0740-py3.12.14",
+      "platform": "darwin-aarch64",
+      "agentPlatformSha": "4b3419da07400000000000000000000000000000",
+      "pythonVersion": "3.12.14",
+      "pythonSha256": "1bb3e53d231ee2c8881e8daf6426f4dd95bff0dda496af0f3af300357aa998d0",
+      "archive": "client-runtime-20260930-4b3419da0740-py3.12.14-darwin-aarch64.tar.gz",
+      "archiveSha256": "26b39ec3dcd99b91d47fef254bc1094428f31d3164ecb43517347657c6cc2ce2",
+      "archiveSize": 31681998,
+      "executable": "python/bin/python3",
+      "installer": "bootstrap/companion_install.py",
+      "capabilities": [
+        "schedulerCompanion"
+      ],
+      "createdAt": "2026-09-30T15:30:00Z"
+    },
+    "signature": "IrNEdl5fS3r0ZwTRYavLwLk9bFoayDQEH8XPiHc0MjiIQlSkC7w4iJAcNgY1boLoOpwE4tkBVVFysXKllOpXCw=="
+  }
+}

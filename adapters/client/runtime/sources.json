@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-30",
+  "python": {
+    "version": "3.12.14",
+    "release": "python-build-standalone 20260929",
+    "platforms": {
+      "darwin-aarch64": {
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.12.14%2B20260929-aarch64-apple-darwin-install_only_stripped.tar.gz",
+        "sha256": "1bb3e53d231ee2c8881e8daf6426f4dd95bff0dda496af0f3af300357aa998d0",
+        "size": 25017608,
+        "executable": "python/bin/python3",
+        "sitePackages": "python/lib/python3.12/site-packages",
+        "wheelPlatforms": [
+          "macosx_11_0_arm64",
+          "macosx_10_9_universal2"
+        ]
+      },
+      "darwin-x86_64": {
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.12.14%2B20260929-x86_64-apple-darwin-install_only_stripped.tar.gz",
+        "sha256": "62891cf4a32ed18b6b4174def999184b5186371422c52dd92d941401db0f0e41",
+        "size": 24729143,
+        "executable": "python/bin/python3",
+        "sitePackages": "python/lib/python3.12/site-packages",
+        "wheelPlatforms": [
+          "macosx_10_15_x86_64",
+          "macosx_10_9_universal2"
+        ]
+      },
+      "windows-x86_64": {
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.12.14%2B20260929-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+        "sha256": "f38e68f4d612ade6dd50c894fc80b14c0be0c3b5201145d6fff5f20b9323204d",
+        "size": 21992568,
+        "executable": "python/python.exe",
+        "sitePackages": "python/Lib/site-packages",
+        "wheelPlatforms": [
+          "win_amd64"
+        ]
+      }
+    }
+  },
+  "wheels": "adapters/client/runtime/requirements.lock",
+  "bootstrap": [
+    "adapters/client/scripts/companion_install.py",
+    "adapters/client/scripts/command_line.py",
+    "adapters/client/scripts/cli_messages.py",
+    "adapters/client/scripts/cli_host.py",
+    "adapters/client/scripts/cli_credentials.py",
+    "adapters/client/scripts/cli_engine.py",
+    "adapters/client/scripts/cli_connection.py",
+    "adapters/client/scripts/cli_leaving.py",
+    "adapters/client/scripts/release_transport.py",
+    "adapters/common/safe_tar.py"
+  ]
+}

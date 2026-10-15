@@ -1,0 +1,16 @@
+{
+  "generated_from": "shared/modes/balanced-economy.toml",
+  "name": "balanced-economy",
+  "description": "Preserve normal engineering quality with lower reasoning cost for most project work.",
+  "intended_use": [
+    "Default cost-saving mode when you still want strong code quality.",
+    "Prefer one durable fix and one verification pass, not repeated deep loops."
+  ],
+  "quality_gates": {
+    "production_verification": "changed-routes",
+    "defect_learning": "confirmed-escaped-defects",
+    "memory_retrieval": "targeted"
+  },
+  "model": "sonnet",
+  "effort": "medium"
+}

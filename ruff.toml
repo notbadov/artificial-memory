@@ -1,0 +1,12 @@
+# What the public pipeline checks beyond the tests: the whole of Pyflakes (names, imports,
+# variables, formats), a closure over a loop variable, an exception raised from another without
+# its cause, and a process started without saying whether its failure is an error.
+target-version = "py312"
+line-length = 120
+
+[lint]
+select = ["F", "B023", "B904", "PLW1510"]
+
+[lint.per-file-ignores]
+# It binds the names of its parts into its own globals at import (bind_client_parts), on purpose.
+"adapters/client/scripts/sync_client.py" = ["F821"]

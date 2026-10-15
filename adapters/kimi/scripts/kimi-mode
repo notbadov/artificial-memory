@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+KIMI_ROOT="${KIMI_CODE_HOME:-$HOME/.kimi-code}"
+exec python3 "$KIMI_ROOT/agent-platform/scripts/run_mode.py" "$@"
